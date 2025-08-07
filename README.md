@@ -2,7 +2,7 @@
 
 > Exploring using hex codes for semantic design tokens and arbitrary values
 
-![Demo Screenshot](example.com)
+![Demo Screenshot](https://raw.githubusercontent.com/aaronmcadam/tailwind-hex-investigation/refs/heads/main/docs/screenshot.png)
 
 ## Features
 
