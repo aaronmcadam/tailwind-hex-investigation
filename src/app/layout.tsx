@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Tailwind v4 Hex Colors Demo",
-  description: "Exploring using hex codes for semantic design tokens and arbitrary values",
+  description:
+    "Exploring using hex codes for semantic design tokens and arbitrary values",
 };
 
 export default function RootLayout({
@@ -23,12 +24,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+    >
+      <body>{children}</body>
     </html>
   );
 }
